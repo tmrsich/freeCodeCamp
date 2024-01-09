@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Markdown Previewer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="container">
+    <div class="editor-container">
+      <h2>Markdown Editor</h2>
+      <textarea id="editor"># Heading 1
+## Heading 2
+[Link](https://www.example.com)
+\`Inline Code\`
+\`\`\`
+// Code Block
+const example = "Hello, World!";
+\`\`\`
+- List item
+> Blockquote
+![Image](https://via.placeholder.com/150)
+**Bold Text**</textarea>
+    </div>
+    
+    <div class="preview-container">
+      <h2>Preview</h2>
+      <div id="preview"></div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/2.0.2/marked.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

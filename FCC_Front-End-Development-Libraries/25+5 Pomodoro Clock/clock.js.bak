@@ -1,0 +1,48 @@
+// Event listener that displays the default break and session length when the window is loaded
+let defaultBreak = document.getElementById("break-length");
+let defaultSession = document.getElementById("session-length");
+window.addEventListener("load", () => {
+    defaultBreak.innerText = "5";
+    defaultSession.innerText = "25";
+});
+
+// Initializes other variables for targeting
+let breakIncrement = document.getElementById("break-increment");
+let breakDecrement = document.getElementById("break-decrement");
+let sessionIncrement = document.getElementById("session-increment");
+let sessionDecrement = document.getElementById("session-decrement");
+let breakCounter = 5;
+let sessionCounter = 25;
+
+// Onclick functions for a simple counter
+    // Adds to the break counter
+breakIncrement.onclick = () => {
+    if (breakCounter < 60) {
+        breakCounter += 1;
+        defaultBreak.innerText = breakCounter;
+    }
+}
+    // Subtracts from the break counter
+breakDecrement.onclick = () => {
+    if (breakCounter > 1) {
+        breakCounter -= 1;
+        defaultBreak.innerText = breakCounter;
+    }
+}
+    // Adds to the session counter
+sessionIncrement.onclick = () => {
+    if (sessionCounter < 60) {
+        sessionCounter += 1;
+        defaultSession.innerText = sessionCounter;
+    }
+}
+    // Subtracts from the session counter
+sessionDecrement.onclick = () => {
+    if (sessionCounter > 1) {
+        sessionCounter -= 1;
+        defaultSession.innerText = sessionCounter;
+    }
+}
+
+
+// break-decrement, break-increment, session-decrement, session-increment are the ids of the buttons that we want to target
