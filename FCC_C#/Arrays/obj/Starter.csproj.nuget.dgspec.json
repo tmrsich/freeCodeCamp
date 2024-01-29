@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Thomas Mrsich\\Desktop\\VS Code\\freeCodeCamp\\FCC_C#\\Arrays\\Arrays.csproj": {}
+    "C:\\Users\\Thomas Mrsich\\Desktop\\VS Code\\freeCodeCamp\\FCC_C#\\Arrays\\Starter.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Thomas Mrsich\\Desktop\\VS Code\\freeCodeCamp\\FCC_C#\\Arrays\\Arrays.csproj": {
+    "C:\\Users\\Thomas Mrsich\\Desktop\\VS Code\\freeCodeCamp\\FCC_C#\\Arrays\\Starter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Thomas Mrsich\\Desktop\\VS Code\\freeCodeCamp\\FCC_C#\\Arrays\\Arrays.csproj",
-        "projectName": "Arrays",
-        "projectPath": "C:\\Users\\Thomas Mrsich\\Desktop\\VS Code\\freeCodeCamp\\FCC_C#\\Arrays\\Arrays.csproj",
+        "projectUniqueName": "C:\\Users\\Thomas Mrsich\\Desktop\\VS Code\\freeCodeCamp\\FCC_C#\\Arrays\\Starter.csproj",
+        "projectName": "Starter",
+        "projectPath": "C:\\Users\\Thomas Mrsich\\Desktop\\VS Code\\freeCodeCamp\\FCC_C#\\Arrays\\Starter.csproj",
         "packagesPath": "C:\\Users\\Thomas Mrsich\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Thomas Mrsich\\Desktop\\VS Code\\freeCodeCamp\\FCC_C#\\Arrays\\obj\\",
         "projectStyle": "PackageReference",

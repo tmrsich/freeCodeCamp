@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\radio\\.nuget\\packages\\": {}
+    "C:\\Users\\Thomas Mrsich\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\radio\\Desktop\\VS Code\\freeCodeCamp\\FCC_C#\\Arrays\\Arrays.csproj",
-      "projectName": "Arrays",
-      "projectPath": "C:\\Users\\radio\\Desktop\\VS Code\\freeCodeCamp\\FCC_C#\\Arrays\\Arrays.csproj",
-      "packagesPath": "C:\\Users\\radio\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\radio\\Desktop\\VS Code\\freeCodeCamp\\FCC_C#\\Arrays\\obj\\",
+      "projectUniqueName": "C:\\Users\\Thomas Mrsich\\Desktop\\VS Code\\freeCodeCamp\\FCC_C#\\Arrays\\Starter.csproj",
+      "projectName": "Starter",
+      "projectPath": "C:\\Users\\Thomas Mrsich\\Desktop\\VS Code\\freeCodeCamp\\FCC_C#\\Arrays\\Starter.csproj",
+      "packagesPath": "C:\\Users\\Thomas Mrsich\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Thomas Mrsich\\Desktop\\VS Code\\freeCodeCamp\\FCC_C#\\Arrays\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\radio\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Thomas Mrsich\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"

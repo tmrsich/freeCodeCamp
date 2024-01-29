@@ -1,0 +1,15 @@
+C:\Users\Thomas Mrsich\Desktop\VS Code\freeCodeCamp\FCC_C#\Arrays\bin\Debug\net8.0\Starter.exe
+C:\Users\Thomas Mrsich\Desktop\VS Code\freeCodeCamp\FCC_C#\Arrays\bin\Debug\net8.0\Starter.deps.json
+C:\Users\Thomas Mrsich\Desktop\VS Code\freeCodeCamp\FCC_C#\Arrays\bin\Debug\net8.0\Starter.runtimeconfig.json
+C:\Users\Thomas Mrsich\Desktop\VS Code\freeCodeCamp\FCC_C#\Arrays\bin\Debug\net8.0\Starter.dll
+C:\Users\Thomas Mrsich\Desktop\VS Code\freeCodeCamp\FCC_C#\Arrays\bin\Debug\net8.0\Starter.pdb
+C:\Users\Thomas Mrsich\Desktop\VS Code\freeCodeCamp\FCC_C#\Arrays\obj\Debug\net8.0\Starter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Thomas Mrsich\Desktop\VS Code\freeCodeCamp\FCC_C#\Arrays\obj\Debug\net8.0\Starter.AssemblyInfoInputs.cache
+C:\Users\Thomas Mrsich\Desktop\VS Code\freeCodeCamp\FCC_C#\Arrays\obj\Debug\net8.0\Starter.AssemblyInfo.cs
+C:\Users\Thomas Mrsich\Desktop\VS Code\freeCodeCamp\FCC_C#\Arrays\obj\Debug\net8.0\Starter.csproj.CoreCompileInputs.cache
+C:\Users\Thomas Mrsich\Desktop\VS Code\freeCodeCamp\FCC_C#\Arrays\obj\Debug\net8.0\Starter.sourcelink.json
+C:\Users\Thomas Mrsich\Desktop\VS Code\freeCodeCamp\FCC_C#\Arrays\obj\Debug\net8.0\Starter.dll
+C:\Users\Thomas Mrsich\Desktop\VS Code\freeCodeCamp\FCC_C#\Arrays\obj\Debug\net8.0\refint\Starter.dll
+C:\Users\Thomas Mrsich\Desktop\VS Code\freeCodeCamp\FCC_C#\Arrays\obj\Debug\net8.0\Starter.pdb
+C:\Users\Thomas Mrsich\Desktop\VS Code\freeCodeCamp\FCC_C#\Arrays\obj\Debug\net8.0\Starter.genruntimeconfig.cache
+C:\Users\Thomas Mrsich\Desktop\VS Code\freeCodeCamp\FCC_C#\Arrays\obj\Debug\net8.0\ref\Starter.dll

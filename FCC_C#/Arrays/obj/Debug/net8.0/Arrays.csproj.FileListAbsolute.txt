@@ -13,3 +13,18 @@ C:\Users\radio\Desktop\VS Code\freeCodeCamp\FCC_C#\Arrays\obj\Debug\net8.0\refin
 C:\Users\radio\Desktop\VS Code\freeCodeCamp\FCC_C#\Arrays\obj\Debug\net8.0\Arrays.pdb
 C:\Users\radio\Desktop\VS Code\freeCodeCamp\FCC_C#\Arrays\obj\Debug\net8.0\Arrays.genruntimeconfig.cache
 C:\Users\radio\Desktop\VS Code\freeCodeCamp\FCC_C#\Arrays\obj\Debug\net8.0\ref\Arrays.dll
+C:\Users\Thomas Mrsich\Desktop\VS Code\freeCodeCamp\FCC_C#\Arrays\bin\Debug\net8.0\Arrays.exe
+C:\Users\Thomas Mrsich\Desktop\VS Code\freeCodeCamp\FCC_C#\Arrays\bin\Debug\net8.0\Arrays.deps.json
+C:\Users\Thomas Mrsich\Desktop\VS Code\freeCodeCamp\FCC_C#\Arrays\bin\Debug\net8.0\Arrays.runtimeconfig.json
+C:\Users\Thomas Mrsich\Desktop\VS Code\freeCodeCamp\FCC_C#\Arrays\bin\Debug\net8.0\Arrays.dll
+C:\Users\Thomas Mrsich\Desktop\VS Code\freeCodeCamp\FCC_C#\Arrays\bin\Debug\net8.0\Arrays.pdb
+C:\Users\Thomas Mrsich\Desktop\VS Code\freeCodeCamp\FCC_C#\Arrays\obj\Debug\net8.0\Arrays.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Thomas Mrsich\Desktop\VS Code\freeCodeCamp\FCC_C#\Arrays\obj\Debug\net8.0\Arrays.AssemblyInfoInputs.cache
+C:\Users\Thomas Mrsich\Desktop\VS Code\freeCodeCamp\FCC_C#\Arrays\obj\Debug\net8.0\Arrays.AssemblyInfo.cs
+C:\Users\Thomas Mrsich\Desktop\VS Code\freeCodeCamp\FCC_C#\Arrays\obj\Debug\net8.0\Arrays.csproj.CoreCompileInputs.cache
+C:\Users\Thomas Mrsich\Desktop\VS Code\freeCodeCamp\FCC_C#\Arrays\obj\Debug\net8.0\Arrays.sourcelink.json
+C:\Users\Thomas Mrsich\Desktop\VS Code\freeCodeCamp\FCC_C#\Arrays\obj\Debug\net8.0\Arrays.dll
+C:\Users\Thomas Mrsich\Desktop\VS Code\freeCodeCamp\FCC_C#\Arrays\obj\Debug\net8.0\refint\Arrays.dll
+C:\Users\Thomas Mrsich\Desktop\VS Code\freeCodeCamp\FCC_C#\Arrays\obj\Debug\net8.0\Arrays.pdb
+C:\Users\Thomas Mrsich\Desktop\VS Code\freeCodeCamp\FCC_C#\Arrays\obj\Debug\net8.0\Arrays.genruntimeconfig.cache
+C:\Users\Thomas Mrsich\Desktop\VS Code\freeCodeCamp\FCC_C#\Arrays\obj\Debug\net8.0\ref\Arrays.dll
