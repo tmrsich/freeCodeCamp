@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Test_C_
-build_property.ProjectDir = C:\Users\radio\Desktop\VS Code\freeCodeCamp\FCC_C#\Test C#\
+build_property.ProjectDir = C:\Users\Thomas Mrsich\Desktop\VS Code\freeCodeCamp\FCC_C#\Test C#\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

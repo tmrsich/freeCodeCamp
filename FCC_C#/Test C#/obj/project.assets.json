@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\radio\\.nuget\\packages\\": {}
+    "C:\\Users\\Thomas Mrsich\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\radio\\Desktop\\VS Code\\freeCodeCamp\\FCC_C#\\Test C#\\Test C#.csproj",
+      "projectUniqueName": "C:\\Users\\Thomas Mrsich\\Desktop\\VS Code\\freeCodeCamp\\FCC_C#\\Test C#\\Test C#.csproj",
       "projectName": "Test C#",
-      "projectPath": "C:\\Users\\radio\\Desktop\\VS Code\\freeCodeCamp\\FCC_C#\\Test C#\\Test C#.csproj",
-      "packagesPath": "C:\\Users\\radio\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\radio\\Desktop\\VS Code\\freeCodeCamp\\FCC_C#\\Test C#\\obj\\",
+      "projectPath": "C:\\Users\\Thomas Mrsich\\Desktop\\VS Code\\freeCodeCamp\\FCC_C#\\Test C#\\Test C#.csproj",
+      "packagesPath": "C:\\Users\\Thomas Mrsich\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Thomas Mrsich\\Desktop\\VS Code\\freeCodeCamp\\FCC_C#\\Test C#\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\radio\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Thomas Mrsich\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
