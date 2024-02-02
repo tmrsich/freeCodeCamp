@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\radio\\Desktop\\VS Code\\freeCodeCamp\\FCC_C#\\Test C#\\Test C#.csproj",
-      "projectName": "Test C#",
-      "projectPath": "C:\\Users\\radio\\Desktop\\VS Code\\freeCodeCamp\\FCC_C#\\Test C#\\Test C#.csproj",
+      "projectUniqueName": "C:\\Users\\radio\\Desktop\\VS Code\\freeCodeCamp\\FCC_C#\\Unit 1\\Unit 1.csproj",
+      "projectName": "Unit 1",
+      "projectPath": "C:\\Users\\radio\\Desktop\\VS Code\\freeCodeCamp\\FCC_C#\\Unit 1\\Unit 1.csproj",
       "packagesPath": "C:\\Users\\radio\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\radio\\Desktop\\VS Code\\freeCodeCamp\\FCC_C#\\Test C#\\obj\\",
+      "outputPath": "C:\\Users\\radio\\Desktop\\VS Code\\freeCodeCamp\\FCC_C#\\Unit 1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\radio\\AppData\\Roaming\\NuGet\\NuGet.Config"
