@@ -1,26 +1,4 @@
-﻿// Role playing game battle challenge
-int heroHealth = 10;
-int monsterHealth = 10;
-Random dice = new Random();
-    // Want while loop to execute when the following conditions are met:
-        // Hero health is above 0
-        // Monster health is above 0
-do {
-    int roll = dice.Next(1, 11);
-
-    monsterHealth -= roll;
-    Console.WriteLine($"The hero dealt {roll} damage, the monster now has {monsterHealth} remaining health");
-
-    if (monsterHealth <= 0) continue;
-
-    roll = dice.Next(1, 11);
-    heroHealth -= roll;
-    Console.WriteLine($"The monster dealt {roll} damage, the hero now has {heroHealth} remaining health");
-} while (heroHealth > 0 && monsterHealth > 0);
-
-Console.WriteLine(heroHealth > monsterHealth ? "The hero wins!" : "The monster wins!");
-
-// // Practice with only while loops
+﻿// // Practice with only while loops
 // Random r = new Random();
 // int currentNum = r.Next(1, 11);
 // while (r >= 6) {
@@ -35,22 +13,6 @@ Console.WriteLine(heroHealth > monsterHealth ? "The hero wins!" : "The monster w
 //     current = r.Next(1, 11);
 //     Console.WriteLine(current);
 // } while (current != 7);
-
-// // Fizzbuzz challenge
-//     // Output values from 1 to 100, one number per line, inside the code block of an iteration statement.
-//     // When the current value is divisible by 3, print the term Fizz next to the number.
-//     // When the current value is divisible by 5, print the term Buzz next to the number.
-//     // When the current value is divisible by both 3 and 5, print the term FizzBuzz next to the number.
-// for (int i = 1; i <= 100; i++) {
-//     if ((i % 3 == 0) && (i % 5 == 0))
-//         Console.WriteLine($"{i} - FizzBuzz");
-//     else if (i % 3 == 0)
-//         Console.WriteLine($"{i} - Fizz");
-//     else if (i % 5 == 0)
-//         Console.WriteLine($"{i} - Buzz");
-//     else
-//         Console.WriteLine(i);
-// }
 
 // // For loop introduction & practice
 // for (int i = 0; i < 10; i++) {
