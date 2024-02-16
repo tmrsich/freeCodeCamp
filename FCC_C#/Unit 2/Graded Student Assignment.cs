@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 // initialize variables - graded assignments 
 int examAssignments = 5;
