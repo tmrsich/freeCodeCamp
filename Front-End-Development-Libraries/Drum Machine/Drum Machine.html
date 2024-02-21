@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Drum Machine.css">
+    <script defer src="Drum Machine.js"></script>
+    <script defer src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <title>Drum Machine</title>
+</head>
+<body>
+<main>
+    <div class="container" id="drum-machine">
+        <div id="display">Display Text</div>
+        <div id="drum-card-container">
+            <button class="card drum-pad" id="drum-Q" onclick="play('Q')">
+                Q
+            <audio src="https://s3.amazonaws.com/freecodecamp/drums/Heater-1.mp3" class="clip" id="Q">
+            </button>
+            <button class="card drum-pad" id="drum-W" onclick="play('W')">
+                W
+            <audio src="https://s3.amazonaws.com/freecodecamp/drums/Heater-2.mp3" class="clip" id="W">
+            </button>
+            <button class="card drum-pad" id="drum-E" onclick="play('E')">
+                E
+            <audio src="https://s3.amazonaws.com/freecodecamp/drums/Heater-3.mp3" class="clip" id="E">
+            </button>
+            <button class="card drum-pad" id="drum-A" onclick="play('A')">
+                A
+            <audio src="https://s3.amazonaws.com/freecodecamp/drums/Heater-4_1.mp3" class="clip" id="A">
+            </button>
+            <button class="card drum-pad" id="drum-S" onclick="play('S')">
+                S
+            <audio src="https://s3.amazonaws.com/freecodecamp/drums/Heater-6.mp3" class="clip" id="S">
+            </button>
+            <button class="card drum-pad" id="drum-D" onclick="play('D')">
+                D
+            <audio src="https://s3.amazonaws.com/freecodecamp/drums/Dsc_Oh.mp3" class="clip" id="D">
+            </button>
+            <button class="card drum-pad" id="drum-Z" onclick="play('Z')">
+                Z
+            <audio src="https://s3.amazonaws.com/freecodecamp/drums/Kick_n_Hat.mp3" class="clip" id="Z">
+            </button>
+            <button class="card drum-pad" id="drum-X" onclick="play('X')">
+                X
+            <audio src="https://s3.amazonaws.com/freecodecamp/drums/RP4_KICK_1.mp3" class="clip" id="X">
+            </button>
+            <button class="card drum-pad" id="drum-C" onclick="play('C')">
+                C
+            <audio src="https://s3.amazonaws.com/freecodecamp/drums/Cev_H2.mp3" class="clip" id="C">
+            </button>
+        </div>
+    </div>
+</main>
+</body>
+</html>
