@@ -1,5 +1,3 @@
-using System.Reflection.Metadata.Ecma335;
-
 double total = 0;
 double minimumSpend = 30.00;
 
@@ -11,7 +9,9 @@ for (int i = 0; i < items.Length; i++)
     total += GetDiscountedPrice(i);
 }
 
-Console.WriteLine($"Total: ${total}");
+total -= TotalMeetsMinimum() ? 5.00 : 0.00;
+
+Console.WriteLine($"Total: ${FormatDecimal(total)}");
 
 double GetDiscountedPrice(int itemIndex)
 {
