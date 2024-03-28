@@ -191,3 +191,43 @@ int[,] TwoCoins(int[] coins, int target)
     */
     return (count == 0) ? new int[0,0] : result;
 }
+
+/*
+MINI CHALLENGE PROJECT - Update the methods so that it matches the output similar to that of freeCodeCamp
+*/
+Random random = new Random();
+
+Console.WriteLine("Would you like to play? (Y/N)");
+if (ShouldPlay()) 
+{
+    PlayGame();
+}
+
+// Changes method type from void to bool that contains a ternary operator that returns true if the user input when converted to lowercase is "y"
+bool ShouldPlay()
+{
+    return (Console.ReadLine().ToLower() == "y" || (Console.ReadLine() == "\n")) ? true : false;
+}
+
+void PlayGame() 
+{
+    var play = true;
+
+    while (play) 
+    {
+        var target = random.Next(1, 6);
+        var roll = random.Next(1, 6);
+
+        Console.WriteLine($"\nRoll a number greater than {target} to win!");
+        Console.WriteLine($"You rolled a {roll}");
+        Console.WriteLine(WinOrLose());
+        Console.WriteLine("\nPlay again? (Y/N)");
+
+        play = ShouldPlay();
+
+        string WinOrLose()
+        {
+            return (roll > target) ? "You won!" : "You lost!";
+        }
+    }
+}
