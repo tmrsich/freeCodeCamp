@@ -1,0 +1,15 @@
+C:\Users\Thomas Mrsich\Desktop\VS Code\freeCodeCamp\C#\Unit 6\Calculation Project\bin\Debug\net8.0\Calculation Project.exe
+C:\Users\Thomas Mrsich\Desktop\VS Code\freeCodeCamp\C#\Unit 6\Calculation Project\bin\Debug\net8.0\Calculation Project.deps.json
+C:\Users\Thomas Mrsich\Desktop\VS Code\freeCodeCamp\C#\Unit 6\Calculation Project\bin\Debug\net8.0\Calculation Project.runtimeconfig.json
+C:\Users\Thomas Mrsich\Desktop\VS Code\freeCodeCamp\C#\Unit 6\Calculation Project\bin\Debug\net8.0\Calculation Project.dll
+C:\Users\Thomas Mrsich\Desktop\VS Code\freeCodeCamp\C#\Unit 6\Calculation Project\bin\Debug\net8.0\Calculation Project.pdb
+C:\Users\Thomas Mrsich\Desktop\VS Code\freeCodeCamp\C#\Unit 6\Calculation Project\obj\Debug\net8.0\Calculation Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Thomas Mrsich\Desktop\VS Code\freeCodeCamp\C#\Unit 6\Calculation Project\obj\Debug\net8.0\Calculation Project.AssemblyInfoInputs.cache
+C:\Users\Thomas Mrsich\Desktop\VS Code\freeCodeCamp\C#\Unit 6\Calculation Project\obj\Debug\net8.0\Calculation Project.AssemblyInfo.cs
+C:\Users\Thomas Mrsich\Desktop\VS Code\freeCodeCamp\C#\Unit 6\Calculation Project\obj\Debug\net8.0\Calculation Project.csproj.CoreCompileInputs.cache
+C:\Users\Thomas Mrsich\Desktop\VS Code\freeCodeCamp\C#\Unit 6\Calculation Project\obj\Debug\net8.0\Calculation Project.sourcelink.json
+C:\Users\Thomas Mrsich\Desktop\VS Code\freeCodeCamp\C#\Unit 6\Calculation Project\obj\Debug\net8.0\Calculation Project.dll
+C:\Users\Thomas Mrsich\Desktop\VS Code\freeCodeCamp\C#\Unit 6\Calculation Project\obj\Debug\net8.0\refint\Calculation Project.dll
+C:\Users\Thomas Mrsich\Desktop\VS Code\freeCodeCamp\C#\Unit 6\Calculation Project\obj\Debug\net8.0\Calculation Project.pdb
+C:\Users\Thomas Mrsich\Desktop\VS Code\freeCodeCamp\C#\Unit 6\Calculation Project\obj\Debug\net8.0\Calculation Project.genruntimeconfig.cache
+C:\Users\Thomas Mrsich\Desktop\VS Code\freeCodeCamp\C#\Unit 6\Calculation Project\obj\Debug\net8.0\ref\Calculation Project.dll
