@@ -32,13 +32,13 @@ do
             Console.WriteLine("\nYou have selected option 3: Calculate the nth term of an arithmetic sequence. Press enter to continue");
             arithmetic = true;
             confirmChoice();
-            nthTerm();
+            CalculateNthTerm();
             break;
         case "4":
             Console.WriteLine("\nYou have selected option 4: Calculate the nth term of a geometric sequence. Press enter to continue");
             arithmetic = false;
             confirmChoice();
-            nthTerm();
+            CalculateNthTerm();
             break;
         default: 
             if (menu.ToLower() != "exit")
@@ -61,7 +61,7 @@ void confirmChoice()
 Broader method that, based on whether or not arithmetic is toggled on or not runs
 the calculator for either the nth term in an arithmetic or geometric sequence
 */
-void nthTerm()
+void CalculateNthTerm()
 {
     // Takes user inputs then solves for the nth term in an arithmetic sequence
     if (arithmetic)
