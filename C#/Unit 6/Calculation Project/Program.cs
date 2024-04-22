@@ -2,6 +2,7 @@
 string? readResult = "";
 string menu = "";
 bool arithmetic;
+bool sumArithmetic;
 do 
 {
     Console.Clear();
@@ -10,6 +11,7 @@ do
     Console.WriteLine("2. Calculate compound interest");
     Console.WriteLine("3. Calculate the nth term of an arithmetic sequence");
     Console.WriteLine("4. Calculate the nth term of a geometric sequence");
+    Console.WriteLine("5. Calculate the sum of an arithmetic sequence");
     readResult = Console.ReadLine();
 
             if (readResult != null)
@@ -39,6 +41,12 @@ do
             arithmetic = false;
             confirmChoice();
             CalculateNthTerm();
+            break;
+        case "5":
+            Console.WriteLine("\nYou have selected option 5: Calculate the sum of an arithmetic sequence. Press enter to continue");
+            sumArithmetic = true;
+            confirmChoice();
+            CalculateSumSeries();
             break;
         default: 
             if (menu.ToLower() != "exit")
