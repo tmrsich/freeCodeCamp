@@ -2,6 +2,7 @@
 string? readResult = "";
 string menu = "";
 bool arithmetic;
+bool sumArithmetic;
 do 
 {
     Console.Clear();
@@ -10,6 +11,8 @@ do
     Console.WriteLine("2. Calculate compound interest");
     Console.WriteLine("3. Calculate the nth term of an arithmetic sequence");
     Console.WriteLine("4. Calculate the nth term of a geometric sequence");
+    Console.WriteLine("5. Calculate the sum of an arithmetic sequence");
+    Console.WriteLine("6. Calculate the sum of a geometric sequence");
     readResult = Console.ReadLine();
 
     if (readResult != null)
@@ -39,6 +42,12 @@ do
             arithmetic = false;
             confirmChoice();
             CalculateNthTerm();
+            break;
+        case "5":
+            Console.WriteLine("\nYou have selected option 5: Calculate the sum of an arithmetic sequence. Press enter to continue");
+            sumArithmetic = true;
+            confirmChoice();
+            CalculateSumSeries();
             break;
         default: 
             if (menu.ToLower() != "exit")
@@ -101,6 +110,38 @@ void CalculateNthTerm()
 
         double nthTerm = aSub1 * Math.Pow(r, (n-1));
         Console.WriteLine($"Term {n} in the geometric sequence is {nthTerm}");
+        Console.ReadLine();
+    }
+}
+
+/* 
+Broader method that, based on whether or not sumArithmetic is toggled on or not runs
+the calculator for either the sum of an arithmetic or geometric sequence
+*/
+void CalculateSumSeries()
+{
+    // Takes user inputs then solves for the sum of an arithmetic sequence
+    if (sumArithmetic)
+    {
+        double Ssubn;
+        double aSub1;
+        double aSubn;
+        int n;
+        int d;
+
+        Console.WriteLine("Please input the value for the first term in the arithmetic sequence");
+        aSub1 = Convert.ToDouble(Console.ReadLine());
+
+        Console.WriteLine("Please input the value for the nth term that you want to solve for:");
+        n = Convert.ToInt32(Console.ReadLine());
+
+        Console.WriteLine("Please input the value for the common difference:");
+        d = Convert.ToInt32(Console.ReadLine());
+
+        aSubn = aSub1 + (n-1) * d;
+
+        Ssubn = n * ((aSub1 + aSubn)/2);
+        Console.WriteLine($"The sum of your arithmetic sequence is {Ssubn}");
         Console.ReadLine();
     }
 }
