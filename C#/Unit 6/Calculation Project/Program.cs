@@ -2,7 +2,6 @@
 string? readResult = "";
 string menu = "";
 bool arithmetic;
-bool sumArithmetic;
 do 
 {
     Console.Clear();
@@ -11,14 +10,12 @@ do
     Console.WriteLine("2. Calculate compound interest");
     Console.WriteLine("3. Calculate the nth term of an arithmetic sequence");
     Console.WriteLine("4. Calculate the nth term of a geometric sequence");
-    Console.WriteLine("5. Calculate the sum of an arithmetic sequence");
-    Console.WriteLine("6. Calculate the sum of a geometric sequence");
     readResult = Console.ReadLine();
 
-    if (readResult != null)
-    {
-        menu = readResult.ToLower();
-    }
+            if (readResult != null)
+            {
+                menu = readResult.ToLower();
+            }
 
     // Use switch statement to process option selected
     switch (menu)
@@ -43,12 +40,6 @@ do
             confirmChoice();
             CalculateNthTerm();
             break;
-        case "5":
-            Console.WriteLine("\nYou have selected option 5: Calculate the sum of an arithmetic sequence. Press enter to continue");
-            sumArithmetic = true;
-            confirmChoice();
-            CalculateSumSeries();
-            break;
         default: 
             if (menu.ToLower() != "exit")
             {
@@ -59,58 +50,60 @@ do
     }
 } while (menu != "exit");
 
-// Quick method that takes user input from the console and clears the console after
-void confirmChoice()
-{
-    Console.ReadLine();
-    Console.Clear();
-}
+        // Quick method that takes user input from the console and clears the console after
+        void confirmChoice()
+        {
+            Console.ReadLine();
+            Console.Clear();
+        }
 
-/* 
-Broader method that, based on whether or not arithmetic is toggled on or not runs
-the calculator for either the nth term in an arithmetic or geometric sequence
-*/
-void CalculateNthTerm()
-{
-    // Takes user inputs then solves for the nth term in an arithmetic sequence
-    if (arithmetic)
-    {
-        double aSub1;
-        int n;
-        int d;
+        /* 
+        Broader method that, based on whether or not arithmetic is toggled on or not runs
+        the calculator for either the nth term in an arithmetic or geometric sequence
+        */
+        void CalculateNthTerm()
+        {
+            // Takes user inputs then solves for the nth term in an arithmetic sequence
+            if (arithmetic)
+            {
+                double aSub1;
+                int n;
+                int d;
 
-        Console.WriteLine("Please input the value for the first term in the arithmetic sequence:");
-        aSub1 = Convert.ToDouble(Console.ReadLine());
+                Console.WriteLine("Please input the value for the first term in the arithmetic sequence:");
+                aSub1 = Convert.ToDouble(Console.ReadLine());
 
-        Console.WriteLine("Please input the value for the nth term that you want to solve for:");
-        n = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("Please input the value for the nth term that you want to solve for:");
+                n = Convert.ToInt32(Console.ReadLine());
 
-        Console.WriteLine("Please input the value for the common difference:");
-        d = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("Please input the value for the common difference:");
+                d = Convert.ToInt32(Console.ReadLine());
 
-        double nthTerm = aSub1 + (n-1) * d;
-        Console.WriteLine($"Term {n} in the arithmetic sequence is {nthTerm}");
-        Console.ReadLine();
-    }
-    // Takes user inputs then solves for the nth term in a geometric sequence
-    else
-    {
-        double aSub1;
-        int n;
-        double r;
+                double nthTerm = aSub1 + (n - 1) * d;
+                Console.WriteLine($"Term {n} in the arithmetic sequence is {nthTerm}");
+                Console.ReadLine();
+            }
+            // Takes user inputs then solves for the nth term in a geometric sequence
+            else
+            {
+                double aSub1;
+                int n;
+                double r;
 
-        Console.WriteLine("Please input the value for the first term in the geometric sequence:");
-        aSub1 = Convert.ToDouble(Console.ReadLine());
+                Console.WriteLine("Please input the value for the first term in the geometric sequence:");
+                aSub1 = Convert.ToDouble(Console.ReadLine());
 
-        Console.WriteLine("Please input the value for the nth term that you want to solve for:");
-        n = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("Please input the value for the nth term that you want to solve for:");
+                n = Convert.ToInt32(Console.ReadLine());
 
-        Console.WriteLine("Please input the value for the common ratio:");
-        r = Convert.ToDouble(Console.ReadLine());
+                Console.WriteLine("Please input the value for the common ratio:");
+                r = Convert.ToDouble(Console.ReadLine());
 
-        double nthTerm = aSub1 * Math.Pow(r, (n-1));
-        Console.WriteLine($"Term {n} in the geometric sequence is {nthTerm}");
-        Console.ReadLine();
+                double nthTerm = aSub1 * Math.Pow(r, (n - 1));
+                Console.WriteLine($"Term {n} in the geometric sequence is {nthTerm}");
+                Console.ReadLine();
+            }
+        }
     }
 }
 

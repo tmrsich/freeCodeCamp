@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Thomas Mrsich\\.nuget\\packages\\": {}
+    "C:\\Users\\radio\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Thomas Mrsich\\Desktop\\VS Code\\freeCodeCamp\\C#\\Unit 6\\Calculation Project\\Calculation Project.csproj",
+      "projectUniqueName": "C:\\Users\\radio\\Desktop\\VS Code\\freeCodeCamp\\C#\\Unit 6\\Calculation Project\\Calculation Project.csproj",
       "projectName": "Calculation Project",
-      "projectPath": "C:\\Users\\Thomas Mrsich\\Desktop\\VS Code\\freeCodeCamp\\C#\\Unit 6\\Calculation Project\\Calculation Project.csproj",
-      "packagesPath": "C:\\Users\\Thomas Mrsich\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Thomas Mrsich\\Desktop\\VS Code\\freeCodeCamp\\C#\\Unit 6\\Calculation Project\\obj\\",
+      "projectPath": "C:\\Users\\radio\\Desktop\\VS Code\\freeCodeCamp\\C#\\Unit 6\\Calculation Project\\Calculation Project.csproj",
+      "packagesPath": "C:\\Users\\radio\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\radio\\Desktop\\VS Code\\freeCodeCamp\\C#\\Unit 6\\Calculation Project\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Thomas Mrsich\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\radio\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -65,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
