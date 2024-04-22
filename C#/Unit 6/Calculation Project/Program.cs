@@ -104,8 +104,6 @@ do
                 Console.ReadLine();
             }
         }
-    }
-}
 
 /* 
 Broader method that, based on whether or not sumArithmetic is toggled on or not runs
