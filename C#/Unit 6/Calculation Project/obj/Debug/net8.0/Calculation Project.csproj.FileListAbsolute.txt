@@ -13,3 +13,18 @@ C:\Users\Thomas Mrsich\Desktop\VS Code\freeCodeCamp\C#\Unit 6\Calculation Projec
 C:\Users\Thomas Mrsich\Desktop\VS Code\freeCodeCamp\C#\Unit 6\Calculation Project\obj\Debug\net8.0\Calculation Project.pdb
 C:\Users\Thomas Mrsich\Desktop\VS Code\freeCodeCamp\C#\Unit 6\Calculation Project\obj\Debug\net8.0\Calculation Project.genruntimeconfig.cache
 C:\Users\Thomas Mrsich\Desktop\VS Code\freeCodeCamp\C#\Unit 6\Calculation Project\obj\Debug\net8.0\ref\Calculation Project.dll
+C:\Users\radio\Desktop\VS Code\freeCodeCamp\C#\Unit 6\Calculation Project\bin\Debug\net8.0\Calculation Project.exe
+C:\Users\radio\Desktop\VS Code\freeCodeCamp\C#\Unit 6\Calculation Project\bin\Debug\net8.0\Calculation Project.deps.json
+C:\Users\radio\Desktop\VS Code\freeCodeCamp\C#\Unit 6\Calculation Project\bin\Debug\net8.0\Calculation Project.runtimeconfig.json
+C:\Users\radio\Desktop\VS Code\freeCodeCamp\C#\Unit 6\Calculation Project\bin\Debug\net8.0\Calculation Project.dll
+C:\Users\radio\Desktop\VS Code\freeCodeCamp\C#\Unit 6\Calculation Project\bin\Debug\net8.0\Calculation Project.pdb
+C:\Users\radio\Desktop\VS Code\freeCodeCamp\C#\Unit 6\Calculation Project\obj\Debug\net8.0\Calculation Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\radio\Desktop\VS Code\freeCodeCamp\C#\Unit 6\Calculation Project\obj\Debug\net8.0\Calculation Project.AssemblyInfoInputs.cache
+C:\Users\radio\Desktop\VS Code\freeCodeCamp\C#\Unit 6\Calculation Project\obj\Debug\net8.0\Calculation Project.AssemblyInfo.cs
+C:\Users\radio\Desktop\VS Code\freeCodeCamp\C#\Unit 6\Calculation Project\obj\Debug\net8.0\Calculation Project.csproj.CoreCompileInputs.cache
+C:\Users\radio\Desktop\VS Code\freeCodeCamp\C#\Unit 6\Calculation Project\obj\Debug\net8.0\Calculation Project.sourcelink.json
+C:\Users\radio\Desktop\VS Code\freeCodeCamp\C#\Unit 6\Calculation Project\obj\Debug\net8.0\Calculation Project.dll
+C:\Users\radio\Desktop\VS Code\freeCodeCamp\C#\Unit 6\Calculation Project\obj\Debug\net8.0\refint\Calculation Project.dll
+C:\Users\radio\Desktop\VS Code\freeCodeCamp\C#\Unit 6\Calculation Project\obj\Debug\net8.0\Calculation Project.pdb
+C:\Users\radio\Desktop\VS Code\freeCodeCamp\C#\Unit 6\Calculation Project\obj\Debug\net8.0\Calculation Project.genruntimeconfig.cache
+C:\Users\radio\Desktop\VS Code\freeCodeCamp\C#\Unit 6\Calculation Project\obj\Debug\net8.0\ref\Calculation Project.dll
