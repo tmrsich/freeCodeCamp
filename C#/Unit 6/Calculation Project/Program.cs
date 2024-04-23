@@ -14,6 +14,7 @@
             Console.WriteLine("3. Calculate the nth term of an arithmetic sequence");
             Console.WriteLine("4. Calculate the nth term of a geometric sequence");
             Console.WriteLine("5. Calculate the sum of an arithmetic sequence");
+            Console.WriteLine("6. Calculate the sum of a geometric sequence");
             readResult = Console.ReadLine();
 
             if (readResult != null)
@@ -46,6 +47,11 @@
                     Console.WriteLine("\nYou have selected option 5: Calculate the sum of an arithmetic sequence. Press enter to continue");
                     Operations.confirmChoice();
                     Operations.CalculateArithmeticSumSeries();
+                    break;
+                case "6":
+                    Console.WriteLine("\nYou have selected option 6: Calculate the sum of a geometric sequence. Press enter to continue");
+                    Operations.confirmChoice();
+                    Operations.CalculateGeometricSumSeries();
                     break;
                 default:
                     if (menu.ToLower() != "exit")
